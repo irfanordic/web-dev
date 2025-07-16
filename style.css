@@ -1,0 +1,59 @@
+header{
+text-align: center;
+ background-color: hsl(203, 41%, 81%); 
+ border-radius: 10px;
+}
+
+.welcome{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3em;
+    text-shadow: 3px 3px 5px;
+    color: hsl(246, 97%, 47%);
+}
+
+.poem-btn{
+    background-color: blue; 
+    border-radius: 15px; 
+    color: white;
+}
+.pic{
+    margin: auto;
+    
+}
+
+.todo{
+    text-align: center;
+}
+
+.table-info{
+    text-align: center;
+}
+.main-table{
+    margin: auto;
+    align-items: center;
+    background-color: white;
+}
+
+.table-header{
+    background-color: white;
+}
+
+.table-row{
+     background-color: hsl(221, 72%, 81%);
+}
+
+.wru{
+text-align: center;
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.wru-p{
+    color: hsl(352, 98%, 48%);
+    text-align: center;
+
+}
+
+.form{
+    margin: auto;
+}
