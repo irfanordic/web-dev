@@ -57,3 +57,26 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 .form{
     margin: auto;
 }
+
+body{
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/050/509/773/small/two-white-feathers-on-a-white-background-photo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.p2header{
+    background-color: rgb(243, 243, 243);
+}
+
+.headerbar{
+    padding: 3px;
+}
+.headerbar:hover{
+    background-color: rgb(95, 91, 91);
+}
+.headerbar:active{
+    background-color: rgb(246, 255, 115);
+}
+
