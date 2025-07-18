@@ -1,0 +1,124 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: hsl(0, 0%, 73%);
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+    color: rgb(35, 35, 255);
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(0, 13, 197);
+    padding: 0px;
+    border-radius: 15px;
+    
+
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+  text-align: center;
+    padding: 15px;
+    border-radius: 9px;
+
+}
+
+.navbar a:hover{
+    background-color: rgb(103, 126, 255);
+}
+
+aside{
+    width: 20%;
+    float: left;
+    padding: 10px;
+    margin: 5px;
+}
+
+section{
+    width: 40%;
+    float: left;
+    padding: 10px;
+    
+}
+
+article{
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+ footer{
+    display: block;
+    clear: both;
+    background-color: rgb(187, 221, 250);
+    padding: 25px;
+    text-align: center;
+ }
+
+ @media screen and  (max-width:600px)  {
+    aside, section,article {
+        max-width: fit-content;
+    }
+ }
+
+ .mainhead{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+ }
+
+
+ .icon{
+    text-align: center;
+ }
+
+ .fa-solid.fa-house.fa-5x{
+    color: black;
+    padding: 20px;
+ }
+
+ .fa-solid.fa-house.fa-5x:hover{
+    color: rgb(82, 81, 81);
+    padding: 20px;
+ }
+
+
+
+ .fa-solid.fa-right-to-bracket.fa-5x{
+    color: rgb(248, 2, 2);
+    padding: 20px;
+ }
+ .fa-solid.fa-right-to-bracket.fa-5x:hover{
+    color: rgb(236, 131, 131);
+    padding: 20px;
+ }
+
+
+
+ .fa-solid.fa-address-card.fa-5x{
+    color: rgb(27, 255, 6);
+    padding: 20px;
+ }
+
+ .fa-solid.fa-address-card.fa-5x:hover{
+    color: rgb(155, 235, 148);
+    padding: 20px;
+ }
+
+
+ .fa-solid.fa-pen-nib.fa-5x{
+    color: rgb(0, 19, 190);
+    padding: 20px;
+ }
+ .fa-solid.fa-pen-nib.fa-5x:hover{
+    color: rgb(110, 124, 247);
+    padding: 20px;
+ }
+
