@@ -4,9 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="about.css">
 </head>
-<body>
-    <h1>Please Sign in !</h1>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt ad sapiente iure architecto magnam perferendis eum repellat deleniti aut dolorem omnis, reiciendis adipisci aspernatur itaque accusantium molestias ex distinctio commodi.</p>
+<body><header>
+    <h1 style="text-align: center;">Please Sign in !</h1>
+
+    <nav class="navbar">
+        <ul>
+            <a href="index.html">Home</a>
+            <a href="about.html">about</a>
+            <a href="poem.html">Poems</a>
+            <a href="Contact.html">Contact Us</a>
+            
+        </ul>
+      </nav>   
+        <hr>
+
+</header>
+<main>
+    <p  style="text-align: center; color: red;">*Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt ad sapiente iure architecto magnam perferendis eum repellat deleniti aut dolorem omnis, reiciendis adipisci aspernatur itaque accusantium molestias ex distinctio commodi.</p>
+<br>
+
+<form action="index.php" method="post">
+<label for="username">Username</label>
+<input type="text" id="username" placeholder="jackofalltrade" minlength="8" maxlength="15">
+<br>
+<label for="password">Password</label>
+<input type="password" id="password"><br>
+<label for="checkbox">Terms and Conditions</label>
+<input type="checkbox" id="checkbox"><br>
+<input type="reset">
+<input type="submit">
+
+</form>
+     
+
+</main>
+
+<footer>
+
+    <div class="pagination">
+        <a href="about.html"> < </a>
+        <a href="index.html" >1</a>
+        <a href="poem.html">2</a>
+        <a href="about.html">3</a>
+        <a href="sign.html"  class="active">4</a>
+        <a href="Contact.html">5</a>
+        <a href="Contact.html">></a>
+    </div>
+</footer>
+
 </body>
-</html>
+
+
+</html>      

@@ -3,7 +3,7 @@ text-align: center;
  background-color: none; 
  border-radius: 10px;
 }
-
+           
 .welcome{
     font-family: 'Courier New', Courier, monospace;
     font-size: 3em;
@@ -20,7 +20,27 @@ text-align: center;
 }
 .pic{
     margin: auto;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: fadeIn;
+    animation-duration: 2s;
+    background-color: transparent;
+    image-rendering: auto;
     
+}
+
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    to{
+        opacity: 1;
+        transform: scale(1);
+    }
+
 }
 
 .todo{
@@ -50,6 +70,16 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
 
+.alert{
+    border: 0.3px solid black;
+    padding: 15px 20px;
+    display: inline-block;
+    border-radius: 4px;
+
+
+    position: relative;
+    left: 25%;
+}
 .wru-p{
     color: hsl(352, 98%, 48%);
     text-align: center;
@@ -101,7 +131,7 @@ body{
 }
 
 .pagination a{
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     text-decoration: none;
     padding: 8px 15px;
     display: inline-block;
