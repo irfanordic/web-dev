@@ -77,6 +77,8 @@ article{
 
  .icon{
     text-align: center;
+    animation-name: slideLeft;
+    animation-duration: 2s;
  }
 
  .fa-solid.fa-house.fa-5x{
@@ -122,3 +124,6 @@ article{
     padding: 20px;
  }
 
+@keyframes slideLeft{
+   from{transform: translateX(300%)}
+}
